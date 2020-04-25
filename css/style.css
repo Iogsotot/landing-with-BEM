@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 body {
   background-color: #3c3c3c76;
-  font-family: Lato; 
+  font-family: "Lato", "Arial", sans-serif; 
 }
 
 /* HEADER Start */
@@ -88,7 +88,8 @@ body {
   max-width: 195px;
   max-height: 123px;
 
-  margin-top: 93px;
+  margin-top: 164px;
+  margin-bottom: 140px;
 }
 
 .text-block {
@@ -103,37 +104,38 @@ margin-bottom: 15px;
 }
 
 .text-block__main-text {
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .header-text {
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 900;
-  letter-spacing: 3px;
+  letter-spacing: 7px;
 }
 
 .main-text {
-  font-size: 21px;
-  letter-spacing: 4px;
+  font-size: 25px;
+  letter-spacing: 5px;
 }
 
 .decorite-line {
   border-bottom: 2px solid white;
   width: 105px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .header__button-group {
   align-items: center;
+  margin-top: 195px;
 }
 
 .button {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
 
-  padding: 10px 35px;
+  padding: 13px 36px;
   
   border: 1px solid white;
 }
@@ -144,7 +146,6 @@ margin-bottom: 15px;
 
 .button:active {
   color:#3c3c3c;
-  background-color: #fff;
   border-color: #3c3c3c;
 }
 
@@ -161,7 +162,7 @@ margin-bottom: 15px;
 }
 
 .button-group__arrow_down {
-  margin: 65px auto 140px;
+  margin: 70px auto 140px;
 }
 
 .header__button-group:hover .arrow_down {
@@ -189,19 +190,18 @@ margin-bottom: 15px;
 }
 
 .header__menu__item{
-  margin: 5px;
+  margin: 15px 5px 5px;
   padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .header__menu__item:hover {
   text-decoration: underline;
-  /* border-bottom: 1px solid #3c3c3c; */
 }
 
 .header__menu__item_active {
   color: #b3a77f;
 }
-
-
 
 /* HEADER End */
