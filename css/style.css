@@ -68,6 +68,12 @@ body {
   font-family: "Lato", "Arial", sans-serif; 
 }
 
+@media(min-width: 1921px) {
+  .header {
+    background-size: cover;
+  }
+}
+
 /* HEADER Start */
 .header {
   display: flex;
@@ -78,10 +84,9 @@ body {
   color: white;
   background-image: url("../imgs/background.png");
   background-repeat: no-repeat;
-  background-size: cover;
-
-  min-height: 1130px;
-  min-width: 1920px;
+  
+  min-height: 1131px;
+  /* min-width: 1920px; */
 }
 
 .header__logo {
@@ -109,7 +114,7 @@ margin-bottom: 15px;
 
 .header-text {
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 900;
   letter-spacing: 7px;
 }
@@ -153,7 +158,7 @@ margin-bottom: 15px;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.arrow_down {
+.arrow--down {
   height: 12px;
   width: 12px;
   border-right: 2px solid white;
@@ -161,11 +166,11 @@ margin-bottom: 15px;
   transform: rotate(45deg);
 }
 
-.button-group__arrow_down {
+.button-group__arrow--down {
   margin: 70px auto 140px;
 }
 
-.header__button-group:hover .arrow_down {
+.header__button-group:hover .arrow--down {
   transform: translateY(20px) rotate(45deg);
   transition: 500ms;
 }
@@ -203,5 +208,93 @@ margin-bottom: 15px;
 .header__menu__item_active {
   color: #b3a77f;
 }
-
 /* HEADER End */
+
+/* ABOUT Start */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+
+  padding-top: 135px;
+  padding-bottom: 90px;
+}
+
+.text-block__about {
+  /* max-width: 700px; */
+  text-align: center; 
+}
+
+.about__text-block__main-text {
+  font-size: 14px;
+  color: rgb(134, 133, 133);
+  line-height: 26px;
+  letter-spacing: 0px;
+
+  margin-top: 16px;
+}
+
+.decorite-line--black {
+  border-color: #000000;
+  border-width: 1px;
+  width: 80px;
+}
+.services {
+  display: flex;
+  margin-top: 50px;
+}
+
+.services__item {
+  width: 266px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.services__item:nth-child(2) .services__header::first-letter {
+  text-transform: lowercase;
+}
+
+.circle-frame {
+  position: relative;
+  width: 92px;
+  height: 92px;
+  border: 2px solid #f0f0f0;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.icon {
+  position: absolute;
+  top: 30px;
+  left: 24px;
+}
+
+.icon--web {}
+
+.icon--mobile {
+  left: 30px;
+}
+
+.icon--marketing {
+  left: 28px;
+}
+
+.services__icon {}
+
+.services__header {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  margin-top: 38px;
+  margin-bottom: 27px;
+}
+
+.services__main-text {}
+
+/* ABOUT End */
