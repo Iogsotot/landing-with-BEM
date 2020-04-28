@@ -12,7 +12,7 @@
   <style>
     HTML {
       background-repeat: no-repeat;
-      background-position: -320px 9px;
+      background-position: -320px 6px;
       /* По умолчанию показывается мобильный макет */
       background-image: url("other/320.png");
     }
@@ -154,9 +154,46 @@
 
     <section class="contact">
 
+      <h2 class="header-text contact__header-text">Contact</h2>
+      <div class="decorite-line decorite-line--black"></div>
 
+      <div class="feedback-group contact__feedback-group">
+        <form action="#" class="feedback-form contact__feedback-form">
+          <div class="form-group">
+            <label class="form-label" for="">your name
+              <input type="text" name="" id="" class="form-input" />
+            </label>
+            <label class="form-label" for="">your e-mail
+              <input type="email" name="" id="" class="form-input" />
+            </label>
+            <label class="form-label form-group__message-block" for="">message
+              <textarea name="" id="" rows="5" class="form-input textarea"></textarea>
+            </label>
+          </div>
+          <input class="feedback-form__button" type="button" value="SEND" />
+        </form>
 
+        <div class="contact-block">
+          <p class="contact-block__main-text">
+            Have an idea for a project? Just looking to <br>
+            explore and see the possibilities?<br>
+            I'm here to help.</p>
+          <p class="contact-block__contact-name">
+            Justus Anna
+          </p>
+          <ul class="contact-block__social-btn-list social-btn-list">
+            <li class="social-btn social-btn--facebook"> <a href="#" class="social-btn-link"> <img src="/imgs/icons/Facebook-icon.png" alt="f"></a> </li>
+            <li class="social-btn social-btn--linkedin"> <a href="#" class="social-btn-link social-btn-link--linkedin"> <img src="/imgs/icons/linledin-icon.png" alt="in">  </a> </li>
+          </ul>
 
+          <div class="contact-block__email-block">e-mail:
+            <a href="anna.justus@gmail.com" class="contact-block__email-link">
+              anna.justus@gmail.com
+            </a>
+          </div>
+
+        </div>
+      </div>
 
     </section>
   </main>
