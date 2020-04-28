@@ -1,151 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="css/style.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="важные, ключевые, слова" />
-    <meta name="description" content="краткое описание" />
-    <title>Binary</title>
-    <!-- Pixel Glass -->
-    <style>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="важные, ключевые, слова" />
+  <meta name="description" content="краткое описание" />
+  <title>Binary</title>
+  <!-- Pixel Glass -->
+  <style>
+    HTML {
+      background-repeat: no-repeat;
+      background-position: -320px 9px;
+      /* По умолчанию показывается мобильный макет */
+      background-image: url("other/320.png");
+    }
+
+    /* Планшет */
+    @media (min-width: 760px) {
       HTML {
-        background-repeat: no-repeat;
-        background-position:  -105px 4px;
-        /* По умолчанию показывается мобильный макет */
-        background-image: url( "other/320.png" );
+        /* Планшетный макет */
+        background-image: url("other/760.png");
       }
-      /* Планшет */
-      @media ( min-width: 760px ) {
-        HTML {
-          /* Планшетный макет */
-          background-image: url( "other/760.png" );
-        }
+    }
+
+    /* Десктоп */
+    @media (min-width: 960px) {
+      HTML {
+        /* Десктопный макет */
+        background-image: url("other/960.png");
       }
-      /* Десктоп */
-      @media ( min-width: 960px ) {
-        HTML {
-          /* Десктопный макет */
-          background-image: url( "other/960.png" );
-        }
-      }
-    </style>
-    <link href="../node_modules/pixel-glass/styles.css" rel="stylesheet">
-    <script src="../node_modules/pixel-glass/script.js"></script>
-    <!-- // Pixel Glass -->
+    }
+  </style>
+  <link href="../node_modules/pixel-glass/styles.css" rel="stylesheet">
+  <script src="../node_modules/pixel-glass/script.js"></script>
+  <!-- // Pixel Glass -->
 
 </head>
+
 <body>
-    <header class="header">
-        <img src="imgs/logo.png" alt="Binary" class="header__logo">
-        <div class="text-block">
-            <h1 class="header-text text-block__header-text">
-                Clear, smart, attractive design
-            </h1>
-            <p class="main-text text-block__main-text">
-                for your app, logo, website
-            </p>
+  <header class="header">
+    <img src="imgs/logo.png" alt="Binary" class="header__logo">
+    <div class="text-block">
+      <h1 class="header-text text-block__header-text">
+        Clear, smart, attractive design
+      </h1>
+      <p class="main-text text-block__main-text">
+        for your app, logo, website
+      </p>
 
-            <div class="decorite-line"></div>
+      <div class="decorite-line"></div>
+    </div>
+    <div class="button-group header__button-group">
+      <a href="#" class="button">read more</a>
+      <div class="arrow--down button-group__arrow--down"></div>
+    </div>
+
+    <nav class="menu-horizontal">
+      <ul class="header__menu">
+        <li class="header__menu__item header__menu__item_active">Home</li>
+        <li class="header__menu__item">About us</li>
+        <li class="header__menu__item">Portfolio</li>
+        <li class="header__menu__item">Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <div class="text-block text-block__about">
+        <h2 class="header-text text-block__header-text">about</h2>
+        <div class="decorite-line decorite-line--black"></div>
+        <p class="main-text text-block__main-text about__text-block__main-text">
+          We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW"
+          factor.
+          In our design process, we make sure to stay one step ahead of the latest trends,
+          <br>never forgetting to abide by key web standards.
+        </p>
+      </div>
+
+      <div class="services">
+
+        <div class="services__item">
+          <div class="circle-frame">
+            <img src="/imgs/icons/about-1.png" alt="" class="icon icon--web services__icon">
+          </div>
+          <h2 class="services__header">web</h2>
+          <p class="main-text about__text-block__main-text ">
+            We tend to deliver unique and <br>
+            functional design, through <br>
+            innovation and creativity.
+          </p>
         </div>
-        <div class="button-group header__button-group">
-            <a href="#" class="button">read more</a>
-            <div class="arrow--down button-group__arrow--down"></div>
+
+        <div class="services__item">
+          <div class="circle-frame">
+            <img src="/imgs/icons/about-2.png" alt="" class="icon icon--mobile services__icon">
+          </div>
+          <h2 class="services__header">ios and android</h2>
+          <p class="main-text about__text-block__main-text">
+            We seek to bring new businesses and <br>
+            customers closer together through valuable <br>
+            insights and proper targeting.
+          </p>
         </div>
 
-        <nav class="menu-horizontal">
-            <ul class="header__menu">
-                <li class="header__menu__item header__menu__item_active">Home</li>
-                <li class="header__menu__item">About us</li>
-                <li class="header__menu__item">Portfolio</li>
-                <li class="header__menu__item">Contact</li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="about">
-          <div class="text-block text-block__about">
-            <h2 class="header-text text-block__header-text">about</h2>
-            <div class="decorite-line decorite-line--black"></div>
-            <p class="main-text text-block__main-text about__text-block__main-text">
-              We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. 
-              In our design process, we make sure to stay one step ahead of the latest trends, 
-              <br>never forgetting to abide by key web standards.
-            </p>
+        <div class="services__item">
+          <div class="circle-frame">
+            <img src="/imgs/icons/about-3.png" alt="" class="icon icon--marketing services__icon">
           </div>
+          <h2 class="services__header">marketing</h2>
+          <p class="main-text about__text-block__main-text">
+            We’ll help you establish the right goals <br>
+            and build the right paths. Success depends <br>
+            on setting the right intention.
+          </p>
+        </div>
+      </div>
+    </section>
 
-          <div class="services">
+    <section class="portfolio">
+      <h2 class="header-text header-text__portfolio">portfolio</h2>
+      <div class="decorite-line decorite-line--black"></div>
+      <ul class="filter filter__portfolio">
+        <li><a href="#" class="filter-item filter-item--active">all</a></li>
+        <li><a href="#" class="filter-item">web</a></li>
+        <li><a href="#" class="filter-item">apps</a></li>
+        <li><a href="#" class="filter-item">other</a></li>
+      </ul>
+      <div class="imgs-grid">
+        <div class="imgs-grid__template template--netflix"></div>
+        <div class="imgs-grid__template template--pratchett"></div>
+        <div class="imgs-grid__template template--tiffany"></div>
+        <div class="imgs-grid__template template--my-first-site"></div>
+        <div class="imgs-grid__template template--keksby"></div>
+        <div class="imgs-grid__template template--zippy"></div>
+      </div>
+      <a href="#" class="button button--black button__portfolio">read more</a>
+    </section>
 
-            <div class="services__item">
-              <div class="circle-frame">
-                <img src="/imgs/icons/about-1.png" alt="" class="icon icon--web services__icon">
-              </div>
-              <h2 class="services__header">web</h2>
-              <p class="main-text about__text-block__main-text ">
-                We tend to deliver unique and <br>
-                functional design, through <br>
-                innovation and creativity.
-              </p>
-            </div>
+    <section class="partners">
+      <h2 class="partners__header">
+        Our partners
+      </h2>
+      <div class="logo-block">
+        <img src="/imgs/icons/partner-1.png" alt="W" class="logo">
+        <img src="/imgs/icons/partner-2.png" alt="ARCHIQ" class="logo">
+        <img src="/imgs/icons/partner-3.png" alt="THOMSOON" class="logo">
+        <img src="/imgs/icons/partner-4.png" alt="Alex" class="logo">
+      </div>
+    </section>
 
-            <div class="services__item">
-              <div class="circle-frame">
-                <img src="/imgs/icons/about-2.png" alt="" class="icon icon--mobile services__icon">
-              </div>
-              <h2 class="services__header">ios and android</h2>
-              <p class="main-text about__text-block__main-text">
-                We seek to bring new businesses and <br>
-                customers closer together through valuable <br>
-                insights and proper targeting.
-              </p>
-            </div>
+    <section class="contact">
 
-            <div class="services__item">
-              <div class="circle-frame">
-                <img src="/imgs/icons/about-3.png" alt="" class="icon icon--marketing services__icon">
-              </div>
-              <h2 class="services__header">marketing</h2>
-              <p class="main-text about__text-block__main-text">
-                We’ll help you establish the right goals <br>
-                and build the right paths. Success depends <br>
-                on setting the right intention.
-              </p>
-            </div>
-          </div>
-        </section>
 
-        <section class="portfolio">
-          <h2 class="header-text header-text__portfolio">portfolio</h2>
-          <div class="decorite-line decorite-line--black"></div>
-          <ul class="filter filter__portfolio">
-              <li><a href="#" class="filter-item filter-item--active">all</a></li>
-              <li><a href="#" class="filter-item">web</a></li>
-              <li><a href="#" class="filter-item">apps</a></li>
-              <li><a href="#" class="filter-item">other</a></li>
-          </ul>
-          <div class="imgs-grid">
-            <div class="imgs-grid__template template--netflix"></div>
-            <div class="imgs-grid__template template--pratchett"></div>
-            <div class="imgs-grid__template template--tiffany"></div>
-            <div class="imgs-grid__template template--my-first-site"></div>
-            <div class="imgs-grid__template template--keksby"></div>
-            <div class="imgs-grid__template template--zippy"></div>
-          </div>
-          <a href="#" class="button button--black button__portfolio">read more</a>
-        </section>
 
-        <section class="partners">
 
-        </section>
 
-        <section class="contact">
+    </section>
+  </main>
 
-        </section>
-    </main>
-    
-    <footer class="footer">
+  <footer class="footer">
 
-    </footer>
+  </footer>
 </body>
+
 </html>
