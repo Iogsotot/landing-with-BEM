@@ -306,10 +306,8 @@ margin-bottom: 15px;
 .portfolio {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
-  height: 600px;
-
+ 
   padding-top: 103px;
 }
 
@@ -384,7 +382,6 @@ margin-bottom: 15px;
   background-image: url("../imgs/template_zippy.png") ;
 }
 
-
 .button--black {
   border-color: #000000;
   color: #000000;
@@ -392,7 +389,7 @@ margin-bottom: 15px;
 
 .button__portfolio {
   margin-top: 55px;
-  margin-bottom: 60px;
+  margin-bottom: 63px;
 }
 
 .button--black:visited {
@@ -406,6 +403,46 @@ margin-bottom: 15px;
 .button--black:active {
   background-color: rgba(60, 60, 60, 0.4);
 }
-
-
 /* PORFOLIO End */
+
+/* PARTNERS Start */
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #667297;
+  background-image: url("/imgs/bg-partners.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+
+.partners__header {
+  font-weight: 300;
+  font-size: 31px;
+  color: #eaeaea;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+
+  margin-bottom: 95px;
+}
+
+.logo-block {
+  height: 63px;
+
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+
+  padding: 0 56px;
+  }
+/*  PARTNERS End */
+
+/* CONTACT Start */
+
+/* CONTACT End*/
