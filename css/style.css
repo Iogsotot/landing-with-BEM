@@ -450,7 +450,7 @@ margin-bottom: 15px;
   color: #000000;
 
   padding-top: 180px;
-  padding-bottom: 102px;
+  padding-bottom: 99px;
 }
 
 .contact__header-text {
@@ -597,3 +597,40 @@ margin-bottom: 15px;
 }
 
 /* CONTACT End*/
+
+/* FOOTER Start */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #3c3c3c;
+
+  padding: 48px 10px;
+}
+
+.footer__logo {
+  width: 122px;
+  height: 78px;
+}
+
+.footer-links { 
+  color: #a4a4a4;
+  
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.footer-links__item {
+  display: inline-block;
+  padding: 5px 9px;
+}
+
+.copyright {
+  font-family: "Myriad Pro", "Myriad","Arial", sans-serif;
+  color: #6c6c6c;
+}
+
+/* FOOTER End */
