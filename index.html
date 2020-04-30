@@ -3,40 +3,12 @@
 
 <head>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="imgs/icons/favicon.ico" type="image/png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="важные, ключевые, слова" />
   <meta name="description" content="краткое описание" />
   <title>Binary</title>
-  <!-- Pixel Glass -->
-  <style>
-    HTML {
-      background-repeat: no-repeat;
-      background-position: -320px 6px;
-      /* По умолчанию показывается мобильный макет */
-      background-image: url("other/320.png");
-    }
-
-    /* Планшет */
-    @media (min-width: 760px) {
-      HTML {
-        /* Планшетный макет */
-        background-image: url("other/760.png");
-      }
-    }
-
-    /* Десктоп */
-    @media (min-width: 960px) {
-      HTML {
-        /* Десктопный макет */
-        background-image: url("other/960.png");
-      }
-    }
-  </style>
-  <link href="../node_modules/pixel-glass/styles.css" rel="stylesheet">
-  <script src="../node_modules/pixel-glass/script.js"></script>
-  <!-- // Pixel Glass -->
-
 </head>
 
 <body>
@@ -160,14 +132,14 @@
       <div class="feedback-group contact__feedback-group">
         <form action="#" class="feedback-form contact__feedback-form">
           <div class="form-group">
-            <label class="form-label" for="">your name
-              <input type="text" name="" id="" class="form-input" />
+            <label class="form-label" for="name">your name
+              <input type="text" name="name" id="name" class="form-input" />
             </label>
-            <label class="form-label" for="">your e-mail
-              <input type="email" name="" id="" class="form-input" />
+            <label class="form-label" for="email">your e-mail
+              <input type="email" name="email" id="email" class="form-input" />
             </label>
-            <label class="form-label form-group__message-block" for="">message
-              <textarea name="" id="" rows="5" class="form-input textarea"></textarea>
+            <label class="form-label form-group__message-block" for="message">message
+              <textarea name="message" id="message" rows="5" class="form-input textarea"></textarea>
             </label>
           </div>
           <input class="feedback-form__button" type="button" value="SEND" />
