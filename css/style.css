@@ -481,7 +481,6 @@ margin-bottom: 15px;
 .form-group {
   display: flex;
   flex-direction: row;
-  /* align-items: flex-start; */
   flex-wrap: wrap;
 
   width: 440px;
@@ -577,23 +576,18 @@ margin-bottom: 15px;
   margin-right: 10px;
 }
 
-.social-btn--linkedin {
- 
-}
-
 .social-btn-link--linkedin {
   font-size: 14px;
   top: 5px;
   right: 6px;
 }
 
-.contact-block__email-block {
+.contact-block__email-block, .contact-block__telegram-block {
   color: #262626;
 }
 
-.contact-block__email-link {
+.contact-block__email-link, .contact-block__telegram-link {
   font-weight: 800;
-
 }
 
 /* CONTACT End*/
