@@ -83,7 +83,6 @@ body {
   background-repeat: no-repeat;
   
   min-height: 1131px;
-  /* min-width: 1920px; */
 }
 
 .header__logo {
@@ -222,7 +221,6 @@ margin-bottom: 15px;
 }
 
 .text-block__about {
-  /* max-width: 700px; */
   text-align: center; 
 }
 
@@ -273,8 +271,6 @@ margin-bottom: 15px;
   left: 24px;
 }
 
-/* .icon--web {} */
-
 .icon--mobile {
   left: 30px;
 }
@@ -282,8 +278,6 @@ margin-bottom: 15px;
 .icon--marketing {
   left: 28px;
 }
-
-/* .services__icon {} */
 
 .services__header {
   font-size: 22px;
@@ -293,8 +287,6 @@ margin-bottom: 15px;
   margin-top: 38px;
   margin-bottom: 27px;
 }
-
-/* .services__main-text {} */
 
 /* ABOUT End */
 
@@ -409,7 +401,7 @@ margin-bottom: 15px;
   align-items: center;
 
   background-color: #667297;
-  background-image: url("/imgs/bg-partners.jpg");
+  background-image: url("../imgs/bg-partners.jpg");
   background-size: cover;
   background-position-y: bottom;
 
